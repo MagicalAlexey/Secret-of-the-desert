@@ -1,0 +1,41 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "desert:scarab",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": false,
+			"minecraft:should_despawn": true,
+			"minecraft:icon": {
+				"texture": "scarab"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			},
+			"minecraft:foil": true,
+			"minecraft:hover_text_color": "aqua",
+			"minecraft:use_duration": 1.4,
+			"minecraft:use_animation": "crossbow",
+			"minecraft:food": {
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "desert:boss_structure"
+				}
+			}
+		},
+		"events": {
+			"desert:boss_structure": {
+				"run_command": {
+					"command": [
+						"function scarab"
+					]
+				}
+			}
+		}
+	}
+}

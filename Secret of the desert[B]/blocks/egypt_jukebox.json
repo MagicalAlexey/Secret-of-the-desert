@@ -1,0 +1,41 @@
+//bridge-file-version: #56
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "desert:egypt_jukebox"
+		},
+		"components": {
+			"minecraft:map_color": "#41320C",
+			"minecraft:unit_cube": {},
+			"minecraft:destroy_time": 1.5,
+			"minecraft:on_interact": {
+				"event": "desert:play",
+				"condition": "query.get_equipped_item_name=='music_disc_egypt'",
+				"target": "other"
+			}
+		},
+		"events": {
+			"desert:play": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"playsound record.egypt @a"
+							],
+							"target": "other"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"stopsound @a"
+							],
+							"target": "other"
+						}
+					}
+				]
+			}
+		}
+	}
+}
