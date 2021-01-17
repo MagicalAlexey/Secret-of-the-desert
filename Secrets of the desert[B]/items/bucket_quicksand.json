@@ -1,0 +1,26 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "desert:bucket_quicksand",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.buckets"
+			},
+			"minecraft:icon": {
+				"texture": "bucket_quicksand"
+			},
+			"minecraft:use_duration": 1.6,
+			"minecraft:stacked_by_data": true,
+			"minecraft:liquid_clipped": true,
+			"minecraft:block_placer": {
+				"block": "desert:qicksand"
+			},
+			"minecraft:max_stack_size": 1
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "desert:baobab_stairs"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#  ",
+      "## ",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "desert:baobab_planks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "desert:baobab_stairs",
+      "count": 4
+    }
+  }
+}

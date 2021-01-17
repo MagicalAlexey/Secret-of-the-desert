@@ -1,0 +1,14 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "desert:crushed_sandstone"
+		},
+		"components": {
+			"minecraft:destroy_time": 2.6,
+			"minecraft:explosion_resistance": 7,
+			"minecraft:loot": "loot_tables/crushed_sandstone.json"
+		}
+	}
+}

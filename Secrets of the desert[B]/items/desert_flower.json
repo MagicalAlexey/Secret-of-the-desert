@@ -1,0 +1,25 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "desert:desert_flower_item",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "desert_flower"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.flower"
+			},
+			"minecraft:block_placer": {
+				"block": "desert:desert_flower"
+			},
+			"minecraft:display_name": {
+				"value": "item.desert:desert_flower"
+			}
+		},
+		"events": {}
+	}
+}
