@@ -1,0 +1,24 @@
+##bridge-file-version: #22
+pack.description=This addon will diversify the desert structures, dangerous and not very mobs, items and food, as well as add new achievements to the game related to the added innovations
+item. desert: desert_flower=Desert rose
+item.record_egypt. desc=Plate (Popcap-Egypt)
+tile. desert:qicksand. name=Quicksand
+tile. desert:crushed_sandstone. name=Crushed sandstone
+tile.desert:baobab_log.name=Wood of the baobab tree
+tile.desert:baobab_leaves.name=Leaves of the baobab tree
+tile.desert:egypt_jukebox.name=The Egyptian player
+item.desert:coconut=Coconut
+item. desert:coconut_open=Open coconut
+item. desert:scarab=Scarab
+tile.desert:crushed_slab.name=Plate of crushed sandstone
+tile.desert:crushed_stairs.name=Stairs of crushed sandstone
+item.desert:left_half_scarab=Left Half Scarab
+item.desert:right_half_scarab=Right Half Scarab
+item.desert:baobab_sapling=Baobab Sapling
+item.desert:papyrus_scroll=Papyrus Scroll
+item.desert:bucket_quicksand=Bucket with Quicksand
+tile.desert:baobab_planks.name=Baobab Planks
+tile.desert:baobab_slab.name=Baobab Slab
+tile.desert:baobab_stairs.name=Baobab Stairs
+item.spawn_egg.entity.desert:scorpion.name=Spawn scorpion
+entity.desert:scorpion.name=Scorpion

@@ -1,0 +1,29 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.16.100",
+	"minecraft:fog_settings": {
+		"description": {
+			"identifier": "desert:sandstorm_fog"
+		},
+		"distance": {
+			"water": {
+				"fog_start": 0,
+				"fog_end": 15,
+				"fog_color": "#4DC6D1",
+				"render_distance_type": "fixed"
+			},
+			"air": {
+				"fog_start": 9,
+				"fog_color": "#E4DE99",
+				"fog_end": 9,
+				"render_distance_type": "render"
+			},
+			"weather": {
+				"fog_start": 9,
+				"fog_end": 9,
+				"fog_color": "#E4E3B2",
+				"render_distance_type": "render"
+			}
+		}
+	}
+}

@@ -1,0 +1,60 @@
+//bridge-file-version: #11
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"desert:baobab_log": {
+		"textures": {
+			"up": "baobab_log_top",
+			"down": "baobab_log_top",
+			"side": "baobab_log_side"
+		},
+		"sound": "wood"
+	},
+	"desert:crushed_sandstone": {
+		"textures": "crushed_sandstone",
+		"sound": "stone"
+	},
+	"desert:baobab_leaves": {
+		"textures": "babobab_leaves",
+		"sound": "grass"
+	},
+	"desert:desert_flower": {
+		"textures": "desert_flower",
+		"sound": "grass"
+	},
+	"desert:qicksand": {
+		"textures": "quicksand",
+		"sound": "gravel"
+	},
+	"desert:egypt_jukebox": {
+		"textures": {
+			"up": "egypt_jukebox_top",
+			"down": "egypt_jukebox_side",
+			"side": "egypt_jukebox_side"
+		},
+		"sound": "wood"
+	},
+	"desert:crushed_slab": {
+		"textures": "crushed_sandstone",
+		"sound": "stone"
+	},
+	"desert:crushed_stairs": {
+		"textures": "crushed_sandstone",
+		"sound": "stone"
+	},
+	"desert:baobab_sapling": {
+		"textures": "baobab_sapling",
+		"sound": "grass"
+	},
+	"desert:coco_block": {
+		"textures": "coco_block",
+		"sound": "wood"
+	},
+	"desert:baobab_planks": {
+		"textures": "baobab_planks",
+		"sound": "wood"
+	}
+}

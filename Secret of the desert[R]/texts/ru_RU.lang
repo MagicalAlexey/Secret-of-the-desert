@@ -1,0 +1,21 @@
+##bridge-file-version: #20
+pack.description=Данный аддон разнообразит пустыни структурами, опасными и не очень мобами, предметами и едой, а также добавит в игру новые достижения, связанные с добавленными нововведениями
+item.desert:desert_flower=Роза пустыни
+item.record_egypt.desc=Пластинка (Popcap - Египет)
+tile.desert:qicksand.name=Зыбучие пески
+tile.desert:crushed_sandstone.name=Колотый песчаник
+tile.desert:baobab_log.name=Древесина баобаба
+tile.desert:baobab_leaves.name=Листья баобаба
+tile.desert:egypt_jukebox.name=Египетский проигрыватель
+item.desert:coconut=Кокос
+item.desert:coconut_open=Открытый кокос
+item.desert:scarab=Скарабей
+tile.desert:crushed_slab.name=Плита из колотого песчаника
+tile.desert:crushed_stairs.name=Ступеньки из колотого песчаника
+item.desert:left_half_scarab=Левая половинка скарабея
+item.desert:right_half_scarab=Правая половинка скарабея
+item.desert:baobab_sapling=Саженец баобаба
+item.desert:papyrus_scroll=Свиток из папируса
+item.desert:bucket_quicksand=Ведро с зыбучим песком
+item.spawn_egg.entity.desert:scorpion.name=Создать скорпиона
+entity.desert:scorpion.name=Скорпион
