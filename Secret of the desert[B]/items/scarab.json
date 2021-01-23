@@ -1,4 +1,4 @@
-//bridge-file-version: #4
+//bridge-file-version: #5
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -21,10 +21,10 @@
 			"minecraft:hover_text_color": "aqua",
 			"minecraft:use_duration": 1.4,
 			"minecraft:use_animation": "crossbow",
-			"minecraft:food": {
-				"can_always_eat": true,
-				"on_consume": {
-					"event": "desert:boss_structure"
+			"minecraft:on_use_on": {
+				"on_use_on": {
+					"event": "desert:boss_structure",
+					"target": "self"
 				}
 			}
 		},
@@ -34,7 +34,8 @@
 					"command": [
 						"function scarab"
 					]
-				}
+				},
+				"decrement_stack": {}
 			}
 		}
 	}

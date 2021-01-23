@@ -1,0 +1,25 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "desert:scorpion_egg_spawn",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "item.spawn_egg.entity.desert:scorpion.name"
+			},
+			"minecraft:icon": {
+				"texture": "egg_scorpion"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.mobEgg"
+			},
+			"minecraft:entity_placer": {
+				"entity": "desert:scorpion"
+			}
+		},
+		"events": {}
+	}
+}

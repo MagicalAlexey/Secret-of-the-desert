@@ -1,4 +1,4 @@
-//bridge-file-version: #17
+//bridge-file-version: #28
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -17,15 +17,32 @@
 			"minecraft:immovable": false,
 			"minecraft:explosion_resistance": 0,
 			"minecraft:on_interact": {
-				"event": "minecraft:killed_quicksand",
 				"target": "other",
-				"condition": "query.get_equipped_item_name=='potion'"
+				"condition": "query.get_equipped_item_name=='potion'",
+				"event": "minecraft:water_quicksand_transforn_to_sand"
 			}
 		},
 		"events": {
 			"minecraft:killed_quicksand": {
-				"set_block": {
-					"block_type": "minecraft:sand"
+				"sequence": [
+					{
+						"set_block": {
+							"block_type": "minecraft:sand"
+						},
+						"decrement_stack": {}
+					},
+					{}
+				]
+			},
+			"minecraft:water_quicksand_transforn_to_sand": {
+				"run_command": {
+					"command": [
+						"give @p glass_bottle 1 0"
+					]
+				},
+				"trigger": {
+					"event": "minecraft:killed_quicksand",
+					"condition": "query.get_equipped_item_name=='potion'"
 				}
 			}
 		}
