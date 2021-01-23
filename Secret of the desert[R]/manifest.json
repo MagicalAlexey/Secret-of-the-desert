@@ -2,13 +2,13 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Secret of the desert 0.5.1 Beta",
+		"name": "Secret of the desert 0.5.2 Beta",
 		"description": "pack.description",
 		"uuid": "0cbfdf9a-f2ba-492e-b019-22aaee548ea7",
 		"version": [
 			0,
 			5,
-			1
+			2
 		],
 		"min_engine_version": [
 			1,
@@ -23,7 +23,7 @@
 			"version": [
 				0,
 				5,
-				1
+				2
 			]
 		}
 	]
